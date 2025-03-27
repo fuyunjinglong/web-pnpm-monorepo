@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@lw-ui/components':
+        specifier: workspace:*
+        version: link:packages/components
+      '@lw-ui/hooks':
+        specifier: workspace:*
+        version: link:packages/hooks
+      '@lw-ui/utils':
+        specifier: workspace:*
+        version: link:packages/utils
+
+  packages/components: {}
+
+  packages/hooks: {}
+
+  packages/utils: {}
