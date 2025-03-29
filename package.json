@@ -11,8 +11,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
-    "@lw-ui/hooks": "workspace:*",
     "@lw-ui/components": "workspace:*",
-    "@lw-ui/utils": "workspace:*"
+    "@lw-ui/hooks": "workspace:*",
+    "@lw-ui/theme": "workspace:*",
+    "@lw-ui/utils": "workspace:*",
+    "sass": "^1.86.0"
   }
 }
