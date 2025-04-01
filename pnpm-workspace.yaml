@@ -1,4 +1,4 @@
 packages:
-  - "examples"
-  - "packages/*"
-  - "docs"
+  - "play" # 存放我们组件测试的时候的代码
+  - "packages/*" #存放我们组件
+  - "docs" # 存放我们组件文档的
